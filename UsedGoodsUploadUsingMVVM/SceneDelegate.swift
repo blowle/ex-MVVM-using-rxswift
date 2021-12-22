@@ -18,7 +18,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         window = UIWindow(windowScene: windowScene)
         
         let rootVC = MainViewController()
-//        rootVC.bind(rootViewMode)
+        rootVC.bind(rootViewModel)
         
         let rootNavVC = UINavigationController(rootViewController: rootVC)
         

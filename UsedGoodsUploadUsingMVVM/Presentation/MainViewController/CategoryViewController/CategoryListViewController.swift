@@ -29,7 +29,7 @@ class CategoryListViewController: UIViewController {
     func bind(_ viewModel: CategoryViewModel) {
         viewModel.cellData
             .drive(tableView.rx.items) { tv, row, data in
-                let cell = tv.dequeueReusableCell(withIdentifier: "CatetoryListCell", for: IndexPath(row: row, section: 0))
+                let cell = tv.dequeueReusableCell(withIdentifier: "CategoryListCell", for: IndexPath(row: row, section: 0))
                 
                 cell.textLabel?.text = data.name
                 
