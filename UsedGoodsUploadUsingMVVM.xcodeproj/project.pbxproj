@@ -24,6 +24,9 @@
 		C98E2C972773A048009B851A /* CategoryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2C962773A048009B851A /* CategoryListViewController.swift */; };
 		C98E2C9A2773A387009B851A /* PriceTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2C992773A387009B851A /* PriceTextFieldCell.swift */; };
 		C98E2C9C2773A391009B851A /* PriceTextFieldCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2C9B2773A391009B851A /* PriceTextFieldCellViewModel.swift */; };
+		C98E2C9F2773A960009B851A /* DetailWriteFormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2C9E2773A960009B851A /* DetailWriteFormCell.swift */; };
+		C98E2CA12773A96D009B851A /* DetailWriteFormCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2CA02773A96D009B851A /* DetailWriteFormCellViewModel.swift */; };
+		C98E2CA32773AF8C009B851A /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98E2CA22773AF8C009B851A /* MainModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +45,9 @@
 		C98E2C962773A048009B851A /* CategoryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryListViewController.swift; sourceTree = "<group>"; };
 		C98E2C992773A387009B851A /* PriceTextFieldCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCell.swift; sourceTree = "<group>"; };
 		C98E2C9B2773A391009B851A /* PriceTextFieldCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceTextFieldCellViewModel.swift; sourceTree = "<group>"; };
+		C98E2C9E2773A960009B851A /* DetailWriteFormCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCell.swift; sourceTree = "<group>"; };
+		C98E2CA02773A96D009B851A /* DetailWriteFormCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailWriteFormCellViewModel.swift; sourceTree = "<group>"; };
+		C98E2CA22773AF8C009B851A /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,10 +99,12 @@
 			isa = PBXGroup;
 			children = (
 				C98E2C88277398BA009B851A /* MainViewModel.swift */,
+				C98E2CA22773AF8C009B851A /* MainModel.swift */,
 				C91D195C27733D9C0080A2C9 /* MainViewController.swift */,
 				C98E2C8F27739CC0009B851A /* TitleTextFieldCell */,
 				C98E2C982773A361009B851A /* CategoryViewController */,
 				C98E2C9D2773A555009B851A /* PriceTextFieldCell */,
+				C98E2CA42773AF93009B851A /* DetailWriteFormCell */,
 			);
 			path = MainViewController;
 			sourceTree = "<group>";
@@ -142,6 +150,15 @@
 				C98E2C9B2773A391009B851A /* PriceTextFieldCellViewModel.swift */,
 			);
 			path = PriceTextFieldCell;
+			sourceTree = "<group>";
+		};
+		C98E2CA42773AF93009B851A /* DetailWriteFormCell */ = {
+			isa = PBXGroup;
+			children = (
+				C98E2C9E2773A960009B851A /* DetailWriteFormCell.swift */,
+				C98E2CA02773A96D009B851A /* DetailWriteFormCellViewModel.swift */,
+			);
+			path = DetailWriteFormCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +248,12 @@
 				C91D194127733AB50080A2C9 /* SceneDelegate.swift in Sources */,
 				C91D195D27733D9C0080A2C9 /* MainViewController.swift in Sources */,
 				C98E2C9527739E52009B851A /* CategoryViewModel.swift in Sources */,
+				C98E2CA12773A96D009B851A /* DetailWriteFormCellViewModel.swift in Sources */,
 				C98E2C8C27739C28009B851A /* TitleTextFieldCell.swift in Sources */,
 				C98E2C9C2773A391009B851A /* PriceTextFieldCellViewModel.swift in Sources */,
+				C98E2CA32773AF8C009B851A /* MainModel.swift in Sources */,
 				C98E2C89277398BA009B851A /* MainViewModel.swift in Sources */,
+				C98E2C9F2773A960009B851A /* DetailWriteFormCell.swift in Sources */,
 				C98E2C9127739E09009B851A /* Catetory.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
