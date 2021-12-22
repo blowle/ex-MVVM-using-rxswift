@@ -23,6 +23,7 @@ class MainViewController: UIViewController {
         
         attribute()
         layout()
+        registerCells()
     }
     
     required init?(coder: NSCoder) {
@@ -55,6 +56,14 @@ class MainViewController: UIViewController {
         tableView.snp.makeConstraints {
             $0.edges.equalToSuperview()
         }
+    }
+    
+    private func registerCells() {
+        tableView.register(TitleTextFieldCell.self, forCellReuseIdentifier: "TitleTextFieldCell") // index 0
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CategorySelectCell") // index 1
+        tableView.register(PriceTextFieldCell.self, forCellReuseIdentifier: "PriceTextFieldCell") // index 2
+        tableView.register(DetailWriteFormCell.self, forCellReuseIdentifier: "DetailWriteFormCell") // index 3
+        
     }
 }
 
